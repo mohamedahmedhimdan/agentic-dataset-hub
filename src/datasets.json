@@ -1,0 +1,236 @@
+[
+  {
+    "id": "CU01",
+    "name": "AgentNet",
+    "publisher": "xlangai",
+    "url": "https://huggingface.co/datasets/xlangai/AgentNet",
+    "purpose": "Desktop GUI trajectories, screenshot understanding, mouse and keyboard actions, and multi-step computer tasks.",
+    "use": "Candidate for Computer Use trajectory learning after rights and provenance review.",
+    "priority": "High."
+  },
+  {
+    "id": "CU02",
+    "name": "GUI-360",
+    "publisher": "vyokky",
+    "url": "https://huggingface.co/datasets/vyokky/GUI-360",
+    "purpose": "GUI action prediction, visual grounding, office software interactions, and multi-step desktop tasks.",
+    "use": "Conditional GUI training candidate requiring source verification.",
+    "priority": "High."
+  },
+  {
+    "id": "CU03",
+    "name": "MemGUI-3K",
+    "publisher": "lgy0404",
+    "url": "https://huggingface.co/datasets/lgy0404/MemGUI-3K",
+    "purpose": "Long-horizon mobile GUI tasks and memory-aware trajectories.",
+    "use": "Conditional training candidate.",
+    "priority": "Medium."
+  },
+  {
+    "id": "CU04",
+    "name": "GUIOdyssey",
+    "publisher": "hflqf88888",
+    "url": "https://huggingface.co/datasets/hflqf88888/GUIOdyssey",
+    "purpose": "Cross-application GUI interaction and navigation.",
+    "use": "Conditional candidate.",
+    "priority": "Medium."
+  },
+  {
+    "id": "CU05",
+    "name": "GUI-Odyssey",
+    "publisher": "OpenGVLab",
+    "url": "https://huggingface.co/datasets/OpenGVLab/GUI-Odyssey",
+    "purpose": "Related GUI-Odyssey repository.",
+    "use": "Investigate version relationships and duplicate content relative to CU04 before training.",
+    "priority": "Medium."
+  },
+  {
+    "id": "CU06",
+    "name": "OS-Atlas-data",
+    "publisher": "OS-Copilot",
+    "url": "https://huggingface.co/datasets/OS-Copilot/OS-Atlas-data",
+    "purpose": "Visual grounding, GUI element localization, screen coordinates, and bounding boxes.",
+    "use": "Candidate for grounding-oriented training after audit.",
+    "priority": "High."
+  },
+  {
+    "id": "CU07",
+    "name": "GUIAct",
+    "publisher": "yiye2023",
+    "url": "https://huggingface.co/datasets/yiye2023/GUIAct",
+    "purpose": "GUI actions and visual interaction data.",
+    "use": "Conditional candidate.",
+    "priority": "Medium."
+  },
+  {
+    "id": "CU08",
+    "name": "WebGym Tasks",
+    "publisher": "microsoft",
+    "url": "https://huggingface.co/datasets/microsoft/webgym_tasks",
+    "purpose": "Web-task instructions and environments for creating or evaluating browser-agent behavior.",
+    "use": "Candidate task source; do not incorrectly describe it as containing complete successful trajectories unless verified.",
+    "priority": "High."
+  },
+  {
+    "id": "CU09",
+    "name": "Android Control",
+    "publisher": "smolagents",
+    "url": "https://huggingface.co/datasets/smolagents/android-control",
+    "purpose": "Android interaction examples and mobile-control research.",
+    "use": "Additional review required.",
+    "priority": "Medium."
+  },
+  {
+    "id": "CU10",
+    "name": "Wave UI 25K",
+    "publisher": "agentsea",
+    "url": "https://huggingface.co/datasets/agentsea/wave-ui-25k",
+    "purpose": "GUI-related visual interaction data.",
+    "use": "Verify actual schema, license, provenance, and training suitability.",
+    "priority": "Medium."
+  },
+  {
+    "id": "AT01",
+    "name": "Nemotron-SFT-Agentic-v2",
+    "publisher": "nvidia",
+    "url": "https://huggingface.co/datasets/nvidia/Nemotron-SFT-Agentic-v2",
+    "purpose": "Agentic SFT, tool invocation, multi-step reasoning behavior, and structured tool interaction.",
+    "use": "High-priority source for reviewing eligible training subsets.",
+    "priority": "Very High."
+  },
+  {
+    "id": "AT02",
+    "name": "xLAM Function Calling 60K",
+    "publisher": "Salesforce",
+    "url": "https://huggingface.co/datasets/Salesforce/xlam-function-calling-60k",
+    "purpose": "Function selection, tool schemas, argument generation, and structured function calls.",
+    "use": "Candidate after accepting applicable access terms and verifying license.",
+    "priority": "High."
+  },
+  {
+    "id": "AT03",
+    "name": "Open-SWE-Traces",
+    "publisher": "nvidia",
+    "url": "https://huggingface.co/datasets/nvidia/Open-SWE-Traces",
+    "purpose": "Software engineering agent trajectories, code editing, debugging, terminal operations, and tests.",
+    "use": "Candidate subject to upstream repository licenses and source review.",
+    "priority": "High."
+  },
+  {
+    "id": "AT04",
+    "name": "SWE-agent-trajectories",
+    "publisher": "nebius",
+    "url": "https://huggingface.co/datasets/nebius/SWE-agent-trajectories",
+    "purpose": "Software engineering tool-use trajectories and issue resolution.",
+    "use": "Conditional candidate; verify benchmark contamination and original-source rights.",
+    "priority": "Medium."
+  },
+  {
+    "id": "AT05",
+    "name": "sft-benchmark-trajectories",
+    "publisher": "Heisenger",
+    "url": "https://huggingface.co/datasets/Heisenger/sft-benchmark-trajectories",
+    "purpose": "Aggregated agentic training trajectories derived from multiple sources.",
+    "use": "Must be reviewed per original data shard, not approved as one undifferentiated collection.",
+    "priority": "Medium."
+  },
+  {
+    "id": "AT06",
+    "name": "TerminalTraj",
+    "publisher": "m-a-p",
+    "url": "https://huggingface.co/datasets/m-a-p/TerminalTraj",
+    "purpose": "Terminal agent behavior, shell operations, and command-result sequences.",
+    "use": "Verify provenance, output rights, and training permissions.",
+    "priority": "Medium."
+  },
+  {
+    "id": "TR01",
+    "name": "DeLM-720 Trajectories",
+    "publisher": "yuzhenm",
+    "url": "https://huggingface.co/datasets/yuzhenm/delm-720-trajectories",
+    "purpose": "Studying recorded coding-agent behavior attributed to GPT-6 Astra and Claude Opus 5.5.",
+    "use": "Research and provenance review. Training eligibility is unresolved and must not be inferred solely from MIT or download availability.",
+    "priority": "High for studying trajectory structure."
+  },
+  {
+    "id": "TR02",
+    "name": "MM-ToolSandbox Traces",
+    "publisher": "CollovLabs",
+    "url": "https://huggingface.co/datasets/CollovLabs/mm-toolsandbox-traces",
+    "purpose": "Multi-tool agent traces involving several teacher systems.",
+    "use": "Research and licensing review.",
+    "priority": "Medium."
+  },
+  {
+    "id": "TR03",
+    "name": "SWEeper-Bench Traces",
+    "publisher": "zlab-princeton",
+    "url": "https://huggingface.co/datasets/zlab-princeton/SWEeper-Bench-traces",
+    "purpose": "Software-engineering benchmark trace analysis.",
+    "use": "Research/evaluation, with careful holdout protection.",
+    "priority": "Medium."
+  },
+  {
+    "id": "TR04",
+    "name": "WorldAuditBench Trajectories",
+    "publisher": "ziyjiang",
+    "url": "https://huggingface.co/datasets/ziyjiang/WorldAuditBench-trajectories",
+    "purpose": "Auditing multimodal or environment-interaction agent behavior.",
+    "use": "Research/evaluation. Confirm source details.",
+    "priority": "Medium."
+  },
+  {
+    "id": "TR05",
+    "name": "DeepSeek-V4.1-Flash-1017-Teacher-Logits",
+    "publisher": "brandonmusic",
+    "url": "https://huggingface.co/datasets/brandonmusic/DeepSeek-V4.1-Flash-1017-Teacher-Logits",
+    "purpose": "Research involving teacher logits.",
+    "use": "Research only until provenance, tokenizer compatibility, task overlap, and training feasibility are reviewed.",
+    "priority": "Low for initial Computer Use SFT."
+  },
+  {
+    "id": "EV01",
+    "name": "Hcompany Trajectories / Holo4",
+    "publisher": "Hcompany",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories",
+    "purpose": "Analyze agent performance and evaluation trajectories.",
+    "use": "Evaluation-oriented by default.",
+    "priority": "Medium"
+  },
+  {
+    "id": "EV02",
+    "name": "Markov Computer Use",
+    "publisher": "markov-ai",
+    "url": "https://huggingface.co/datasets/markov-ai/computer-use",
+    "purpose": "Computer Use trajectories related to benchmark environments.",
+    "use": "Evaluation/research until provenance and training rights are resolved.",
+    "priority": "Medium"
+  },
+  {
+    "id": "EV03",
+    "name": "Multimodal-Mind2Web",
+    "publisher": "osunlp",
+    "url": "https://huggingface.co/datasets/osunlp/Multimodal-Mind2Web",
+    "purpose": "Multimodal web navigation and grounding evaluation.",
+    "use": "Respect official splits and licensing; protect designated evaluation data.",
+    "priority": "Medium"
+  },
+  {
+    "id": "EV04",
+    "name": "ScreenSpot-v2",
+    "publisher": "OS-Copilot",
+    "url": "https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2",
+    "purpose": "Evaluate visual element grounding and click-location accuracy.",
+    "use": "Evaluation-only in this project by default.",
+    "priority": "Medium"
+  },
+  {
+    "id": "EV05",
+    "name": "ScreenSpot-Pro",
+    "publisher": "likaixin",
+    "url": "https://huggingface.co/datasets/likaixin/ScreenSpot-Pro",
+    "purpose": "Evaluate visual grounding in complex interfaces.",
+    "use": "Evaluation-only in this project by default.",
+    "priority": "Medium"
+  }
+]

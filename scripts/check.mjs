@@ -1,0 +1,2 @@
+import {readFileSync} from 'node:fs';import assert from 'node:assert/strict';
+const d=JSON.parse(readFileSync('src/datasets.json'));assert.equal(d.length,26);assert.equal(new Set(d.map(x=>x.id)).size,26);assert.equal(new Set(d.map(x=>x.url)).size,26);for(const x of d){for(const k of ['id','name','publisher','url','purpose','use'])assert.ok(x[k],`${x.id} ${k}`);assert.ok(x.url.startsWith('https://huggingface.co/datasets/'));}console.log('26 unique dataset records validated');
